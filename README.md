@@ -3,7 +3,7 @@ Test Examination Project Router
 Installation:
 Add this package to your composer.
 
-composer require lika/routerggvgvg
+composer require lika/router
 
 Usage:
 
