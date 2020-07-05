@@ -1,12 +1,12 @@
-Test Examination Project Router
+# Test Examination Project Router
 
-Installation:
+## Installation:
 Add this package to your composer.
 
 composer require lika/router
 
-Usage:
-
+## Usage:
+```php
 <?php
 require '../vendor/autoload.php';
 use Lika\Router\Router;
@@ -21,6 +21,7 @@ Router::addRoute('^/(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 //Redirects the URL to the correct route
 Router::dispatch($url);
 
-if you need to see the current path use:
+//if you need to see the current path use:
 Router::getRoute();
 
+```
