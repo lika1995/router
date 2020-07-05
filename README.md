@@ -1,6 +1,23 @@
 # Test Examination Project Router
 
 ## Installation:
+add to your file composer.json this settings
+```json
+ "name": "yourProjectName",
+    "description": "Your description",
+    "type": "your type",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lika1995/router"
+        }
+    ],
+    "require": {
+        "lika1995/router": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
+```
 Add this package to your composer.
 
 composer require lika1995/router
