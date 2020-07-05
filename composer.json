@@ -1,0 +1,18 @@
+{
+    "name": "lika/router",
+    "description": "Test project - router",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lika",
+            "email": "likusya865@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lika\\Router\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
