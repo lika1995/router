@@ -13,15 +13,15 @@ use Lika\Router\Router;
 
 $url = $_SERVER['REQUEST_URI'];
 
-//Set namespase for your controllers:
+// Set namespace for your controllers:
 Router::setControllerNamespace('App\Controllers\\');
-//Set default routs:
+// Set default routes:
 Router::addRoute('^/$', ['controller' => 'Main', 'action' => 'index']);
 Router::addRoute('^/(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
-//Redirects the URL to the correct route
+// Redirects the URL to the correct route
 Router::dispatch($url);
 
-//if you need to see the current path use:
+// if you need to see the current path use:
 Router::getRoute();
 
 ```
