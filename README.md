@@ -3,7 +3,7 @@
 ## Installation:
 Add this package to your composer.
 
-composer require lika/router
+composer require lika1995/router
 
 ## Usage:
 ```php

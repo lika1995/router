@@ -10,8 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lika\\Router\\": "src/",
-            "App\\": "app/"
+            "Lika\\Router\\": "src/"
         }
     },
     "require": {}
